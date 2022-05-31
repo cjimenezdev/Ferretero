@@ -1,0 +1,37 @@
+body {
+    font-size: 15pt;
+}
+
+.card-body img {
+    height: 256px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 1rem
+}
+
+ul li a {
+    color: white
+}
+
+.slogan img {
+    top: -240px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 4rem
+}
+
+@media(max-width: 668px) {
+    .card img {
+        height: 70px !important;
+    }
+    .title {
+        font-size: 1rem
+    }
+    .slogan img {
+        top: -100px;
+    }
+}
